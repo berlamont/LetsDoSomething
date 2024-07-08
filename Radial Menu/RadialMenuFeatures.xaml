@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:radialMenu="clr-namespace:Syncfusion.Maui.RadialMenu;assembly=Syncfusion.Maui.RadialMenu"
+             x:Class="LetsDoSomething.RadialMenuFeatures" >
+    <radialMenu:SfRadialMenu CenterButtonText="Edit" IsOpen="true" IsDragEnabled="true" 
+								EnableRotation="true" EnableCenterButtonAnimation="true" >
+	  <radialMenu:SfRadialMenu.Items>
+			 <radialMenu:SfRadialMenuItem Text="Bold"/>
+			 <radialMenu:SfRadialMenuItem Text="Italic"/>
+			 <radialMenu:SfRadialMenuItem Text="Strike"/>
+			 <radialMenu:SfRadialMenuItem Text="Text"/>
+			 <radialMenu:SfRadialMenuItem ItemWidth="50" Text="Highlight"/>
+			 <radialMenu:SfRadialMenuItem Text="Erase"/>
+		 </radialMenu:SfRadialMenu.Items>
+	 </radialMenu:SfRadialMenu>
+</ContentPage>
